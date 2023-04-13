@@ -1,0 +1,26 @@
+﻿@using ProjectBase
+@using System.Globalization
+@page "/calculator"
+
+@code {
+    private ProjectBase.Functions functions = new ProjectBase.Functions();
+    private double currentBMI = 0;
+    private int feet {get;set;}
+    private int inches {get;set;}
+    private int pounds {get;set;}
+    private void updateBMI(){
+        currentBMI = functions.bmiCalculator(feet,inches,pounds);
+    }
+}
+
+<PageTitle>BMI</PageTitle>
+<h1>BMI calculator</h1>
+<p role="status">BMI: @currentBMI</p>
+<div>
+    Feet <input type="number" value="@(feet.ToString("G29"))" @onchange="@(e => feet = Int32.Parse(e.Value.ToString(), NumberStyles.Any, CultureInfo.InvariantCulture))" />
+    Inches <input type="number" value="@(inches.ToString("G29"))" @onchange="@(e => inches = Int32.Parse(e.Value.ToString(), NumberStyles.Any, CultureInfo.InvariantCulture))" />
+    Pounds <input type="number" value="@(pounds.ToString("G29"))" @onchange="@(e => pounds = Int32.Parse(e.Value.ToString(), NumberStyles.Any, CultureInfo.InvariantCulture))" />
+</div>
+<div>
+    <br><button class="btn btn-primary" @onclick="updateBMI">Calculate BMI</button>
+</div>
