@@ -3,4 +3,4 @@ mono:
   - latest
 dotnet: 7.0.203
 script:
- - dotnet restore
+ - dotnet watch
