@@ -1,91 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\frogi\\Documents\\Homework\\testing\\2\\ProjectBase.Tests\\ProjectBase.Tests.csproj": {}
+    "C:\\Users\\frogi\\Documents\\GitHub\\4283hw\\ProjectBase.Tests\\ProjectBase.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\frogi\\Documents\\Homework\\testing\\2\\ProjectBase.Tests\\ProjectBase.Tests.csproj": {
+    "C:\\Users\\frogi\\Documents\\GitHub\\4283hw\\Blazor\\Blazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\frogi\\Documents\\Homework\\testing\\2\\ProjectBase.Tests\\ProjectBase.Tests.csproj",
-        "projectName": "ProjectBase.Tests",
-        "projectPath": "C:\\Users\\frogi\\Documents\\Homework\\testing\\2\\ProjectBase.Tests\\ProjectBase.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\frogi\\Documents\\GitHub\\4283hw\\Blazor\\Blazor.csproj",
+        "projectName": "Blazor",
+        "projectPath": "C:\\Users\\frogi\\Documents\\GitHub\\4283hw\\Blazor\\Blazor.csproj",
         "packagesPath": "C:\\Users\\frogi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\frogi\\Documents\\Homework\\testing\\2\\ProjectBase.Tests\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\frogi\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Users\\frogi\\Documents\\Homework\\testing\\2\\ProjectBase\\ProjectBase.csproj": {
-                "projectPath": "C:\\Users\\frogi\\Documents\\Homework\\testing\\2\\ProjectBase\\ProjectBase.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "MSTest.TestAdapter": {
-              "target": "Package",
-              "version": "[2.2.7, )"
-            },
-            "MSTest.TestFramework": {
-              "target": "Package",
-              "version": "[2.2.7, )"
-            },
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[16.11.0, )"
-            },
-            "coverlet.collector": {
-              "target": "Package",
-              "version": "[3.1.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\frogi\\Documents\\Homework\\testing\\2\\ProjectBase\\ProjectBase.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\frogi\\Documents\\Homework\\testing\\2\\ProjectBase\\ProjectBase.csproj",
-        "projectName": "ProjectBase",
-        "projectPath": "C:\\Users\\frogi\\Documents\\Homework\\testing\\2\\ProjectBase\\ProjectBase.csproj",
-        "packagesPath": "C:\\Users\\frogi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\frogi\\Documents\\Homework\\testing\\2\\ProjectBase\\obj\\",
+        "outputPath": "C:\\Users\\frogi\\Documents\\GitHub\\4283hw\\Blazor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\frogi\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -111,22 +37,143 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "AltCover": {
+              "target": "Package",
+              "version": "[8.6.45, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\frogi\\Documents\\GitHub\\4283hw\\ProjectBase.Tests\\ProjectBase.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\frogi\\Documents\\GitHub\\4283hw\\ProjectBase.Tests\\ProjectBase.Tests.csproj",
+        "projectName": "ProjectBase.Tests",
+        "projectPath": "C:\\Users\\frogi\\Documents\\GitHub\\4283hw\\ProjectBase.Tests\\ProjectBase.Tests.csproj",
+        "packagesPath": "C:\\Users\\frogi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\frogi\\Documents\\GitHub\\4283hw\\ProjectBase.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\frogi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\frogi\\Documents\\GitHub\\4283hw\\Blazor\\Blazor.csproj": {
+                "projectPath": "C:\\Users\\frogi\\Documents\\GitHub\\4283hw\\Blazor\\Blazor.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AltCover": {
+              "target": "Package",
+              "version": "[8.6.45, )"
+            },
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

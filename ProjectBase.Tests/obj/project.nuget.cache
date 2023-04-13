@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9wdja8csijQEksKfXrflQNTjniUZxgnwEJjW8PxkvzKywhxNDZcaUY1QWb6BOxQ5Xz6f912JYB3/YZXXzKx31Q==",
+  "dgSpecHash": "E3JT2fAsGxjU7bTJEzqrzrK81qhh+PIbJqRv1JpAFzCIW8jptfMJV/1gJ1XeHCCjZDNUbQXvL/rdWivxfW9leA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\frogi\\Documents\\Homework\\testing\\2\\ProjectBase.Tests\\ProjectBase.Tests.csproj",
+  "projectFilePath": "C:\\Users\\frogi\\Documents\\GitHub\\4283hw\\ProjectBase.Tests\\ProjectBase.Tests.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\frogi\\.nuget\\packages\\altcover\\8.6.45\\altcover.8.6.45.nupkg.sha512",
     "C:\\Users\\frogi\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\frogi\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",
     "C:\\Users\\frogi\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
@@ -91,7 +92,10 @@
     "C:\\Users\\frogi\\.nuget\\packages\\system.threading.tasks.extensions\\4.3.0\\system.threading.tasks.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\frogi\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\frogi\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\frogi\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\frogi\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\frogi\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\frogi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\frogi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512"
   ],
   "logs": []
 }

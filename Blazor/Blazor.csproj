@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AltCover" Version="8.6.45" />
+  </ItemGroup>
+
 </Project>
