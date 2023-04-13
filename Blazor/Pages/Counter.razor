@@ -8,14 +8,16 @@
     private int feet {get;set;}
     private int inches {get;set;}
     private int pounds {get;set;}
+    private string category = ProjectBase.Category.Normalweight.ToString();
     private void updateBMI(){
         currentBMI = functions.bmiCalculator(feet,inches,pounds);
+        category = functions.CategorySorter(currentBMI).ToString();
     }
 }
 
 <PageTitle>BMI</PageTitle>
 <h1>BMI calculator</h1>
-<p role="status">BMI: @currentBMI</p>
+<p>BMI: @currentBMI : @category</p>
 <div>
     Feet <input type="number" value="@(feet.ToString("G29"))" @onchange="@(e => feet = Int32.Parse(e.Value.ToString(), NumberStyles.Any, CultureInfo.InvariantCulture))" />
     Inches <input type="number" value="@(inches.ToString("G29"))" @onchange="@(e => inches = Int32.Parse(e.Value.ToString(), NumberStyles.Any, CultureInfo.InvariantCulture))" />
